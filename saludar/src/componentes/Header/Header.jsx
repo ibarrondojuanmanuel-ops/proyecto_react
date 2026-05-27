@@ -13,7 +13,7 @@ function Header() {
 
         }>
 
-            <h1>Mi App React</h1> </header>
+            <h1>TecnoLibrería</h1> </header>
 
 
     );

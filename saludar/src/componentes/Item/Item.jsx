@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export function Item({ nombre, precio, stock }) {
+export function Item({ nombre, precio, stock, }) {
     
     const [esFavorito, setEsFavorito] = useState(false);
 
@@ -23,14 +23,14 @@ export function Item({ nombre, precio, stock }) {
             <div style={{ display: 'flex', alignItems: 'center', gap: '15px', marginTop: '10px' }}>
                 <button onClick={CompraClick}>Comprar</button>
 
-                {/* 3. La estrella de favoritos */}
+                
                 <span 
                     onClick={marcarComoFavorito} 
                     style={{ 
                         fontSize: '24px', 
                         cursor: 'pointer', 
                         userSelect: 'none',
-                        color: esFavorito ? '#FFD700' : '#CCCCCC' // Dorado si es true, gris si es false
+                        color: esFavorito ? '#FFD700' : '#CCCCCC' 
                     }}
                 >
                     {esFavorito ? '★' : '☆'}

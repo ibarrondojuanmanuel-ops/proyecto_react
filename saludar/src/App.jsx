@@ -15,7 +15,7 @@ function App() {
 
         </head>
         <main> 
-          <h1>¡Bienvenidos a mi página!</h1>
+          <h1>Líder En Ventas De Insumos Tecnológicos</h1>
           <Contador />
           <p>Este es el contenido principal.</p>
           <ItemListContainer Mensaje= "Nuestros Productos" />

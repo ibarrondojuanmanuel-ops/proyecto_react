@@ -15,7 +15,7 @@ function Footer() {
 
         }>
 
-            <p>&copy; 2026 - Mi Aplicación React</p> </footer>
+            <p>&copy; 2026 - tecnolibrería</p> </footer>
 
     );
 
