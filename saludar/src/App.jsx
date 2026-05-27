@@ -1,6 +1,8 @@
 import { Contador } from "./componentes/Contador/Contador"
 import { ItemListContainer } from "./componentes/ItemListContainer/ItemListContainer"
 import { Layout } from "./componentes/Layout"
+import { NosotrosContainer } from './componentes/NosotrosContainer/NosotrosContainer';
+import { PersonajesContainer } from './componentes/PersonajesContainer/PersonajesContainer';
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
           <Contador />
           <p>Este es el contenido principal.</p>
           <ItemListContainer Mensaje= "Nuestros Productos" />
+          <NosotrosContainer />
+          <PersonajesContainer />
         </main>
        
         <footer>

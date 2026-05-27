@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Juan Manuel",
+    "puesto": "Desarrollador Frontend",
+    "email": "juan@example.com",
+    "foto": "https://picsum.photos/200/200?random=1"
+  },
+  {
+    "id": 2,
+    "nombre": "Ana Clara",
+    "puesto": "Diseñadora UX/UI",
+    "email": "ana@example.com",
+    "foto": "https://picsum.photos/200/200?random=2"
+  },
+  {
+    "id": 3,
+    "nombre": "Lucas Gabriel",
+    "puesto": "Coordinador de Proyecto",
+    "email": "lucas@example.com",
+    "foto": "https://picsum.photos/200/200?random=3"
+  },
+  {
+    "id": 4,
+    "nombre": "María Belén",
+    "puesto": "Especialista en QA",
+    "email": "belen@example.com",
+    "foto": "https://picsum.photos/200/200?random=4"
+  }
+]
