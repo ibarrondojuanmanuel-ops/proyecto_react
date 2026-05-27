@@ -17,7 +17,7 @@ function App() {
         <main> 
           <h1>Líder En Ventas De Insumos Tecnológicos</h1>
           <Contador />
-          <p>Este es el contenido principal.</p>
+          <p>Los insumos de TecnoLibrería son de la más alta calidad en el mercado</p>
           <ItemListContainer Mensaje= "Nuestros Productos" />
           <NosotrosContainer />
           <PersonajesContainer />
