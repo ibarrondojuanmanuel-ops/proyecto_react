@@ -7,22 +7,23 @@ export function Login() {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   
-  const { login } = useAuth(); // Traemos la función de Firebase del contexto
+  const { login } = useAuth(); 
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError('');
     
-    // Validación básica en el cliente
     if (!email.trim() || !password.trim()) {
       setError('Por favor, completa todos los campos.');
       return;
     }
 
     try {
-      await login(email, password); // Intentamos loguear en Firebase
-      navigate('/admin'); // Si sale bien, lo mandamos al panel de gestión
+      await login(email, password); 
+      // CAMBIO CLAVE: Lo redirigimos a la ruta raíz '/' tal cual pide la Clase 12
+      // Al volver al inicio, el Header lee el nuevo rol de admin y muestra los botones correctos
+      navigate('/alta'); 
     } catch (err) {
       console.error(err);
       setError('Credenciales incorrectas. Verificá tu correo y contraseña.');
